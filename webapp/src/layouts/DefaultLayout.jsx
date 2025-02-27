@@ -7,7 +7,7 @@ export default function DefaultLayout() {
     <>
     
         <Header/>
-        <main>
+        <main className="py-6">
             <Outlet/>
         </main>
         <Footer/>
